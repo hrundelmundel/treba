@@ -1,0 +1,41 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  font-family: eva;
+  background-image: url("https://i.pinimg.com/originals/d7/48/ca/d748caa0ffc9c604a10beedc75d4775f.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Центровка с лёгким смещением вниз */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding-top: 60vh;
+}
+
+/* Только текст, без оформления */
+.button {
+  text-decoration: none;
+  background: none;
+  border: none;
+  color: #d0d0d0;
+  font-family: eva;
+  font-size: px;
+  letter-spacing: 2px;
+  transition: 0.2s ease;
+  margin-top: 90px;
+}
+
+.button:hover {
+  color: #ffffff;
+  transform: scale(1.02);
+}

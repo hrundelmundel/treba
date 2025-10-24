@@ -1,0 +1,370 @@
+body {
+    display: flex;
+    justify-content: center;
+    color: #61a0a5;
+    background: url(/рей2.jpg) center/cover no-repeat;
+    font-family: "PC98", sans-serif;
+}
+
+img {
+    image-rendering: pixelated;
+    filter: grayscale(65%);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+    letter-spacing: 3px;
+}
+
+h3 {
+    color: white;
+    background-color: #1a1017;
+    padding: 5px;
+}
+
+@font-face {
+    font-family: PC98;
+    src: url("https://file.garden/Z7lxKNm67A6xLihF/assets/fonts/pc-9800.ttf");
+}
+
+/* Основная структура */
+#container {
+    width: 1110px;
+    margin-top: 25px;
+    height: 920px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    padding: 5px;
+    border: solid 1px black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Левая панель */
+#leftsidebar {
+    width: 200px;
+    height: 890px;
+    background-image: url(https://file.garden/Z7lxKNm67A6xLihF/assets/images/digitalraingray.gif);
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#profilepic {
+    width: 190px;
+    height: 230px;
+    background-color: white;
+    border: dotted 2px #61a0a5;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+#leftboxbottom {
+    width: 190px;
+    height: 400px;
+    background-color: white;
+    border: dotted #61a0a5 2px;
+    padding: 5px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    margin-bottom: 233px;
+}
+
+/* Центр */
+#center {
+    width: 900px;
+    height: 948px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#titletop {
+    width: 650px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes bounce {
+
+    0%,
+    50% {
+        margin-top: 35px;
+    }
+
+    51%,
+    100% {
+        margin-top: 25px;
+    }
+}
+
+#numbers {
+    width: 670px;
+    height: 495px;
+    background-image: url(https://file.garden/Z7lxKNm67A6xLihF/assets/images/numberspiral.gif);
+    background-size: cover;
+    border: solid 1px black;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#textboxtop {
+    width: 650px;
+    height: 130px;
+    background-color: white;
+    border: dotted 2px #61a0a5;
+    padding: 2px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    z-index: 5;
+}
+
+#textboxbottom {
+    width: 212px;
+    height: 285px;
+    background-color: white;
+    border: dotted 2px #61a0a5;
+    padding: 2px;
+    overflow-y: auto;
+    margin-top: 10px;
+    float: left;
+}
+
+#textboxbottom2 {
+    width: 425px;
+    height: 285px;
+    background-color: white;
+    border: dotted 2px #61a0a5;
+    padding: 2px;
+    overflow: auto;
+    scrollbar-width: none;
+    margin-top: 10px;
+    float: right;
+}
+
+/* Бегущая строка */
+.marquee-wrapper {
+    overflow: hidden;
+    height: 55px;
+    display: flex;
+    width: 525px;
+}
+
+.marquee {
+    display: flex;
+    flex-shrink: 0;
+    height: inherit;
+    min-width: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+
+/* Нижняя часть */
+#numbers2 {
+    width: 650px;
+    height: 270px;
+    background-image: url(https://file.garden/Z7lxKNm67A6xLihF/assets/images/numberspiral.gif);
+    background-size: cover;
+    background-position: bottom;
+    border: solid 1px black;
+    z-index: 100;
+    overflow-y: auto;
+    scrollbar-width: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#textboxbottomright {
+    width: 640px;
+    height: 250px;
+    background-color: white;
+    border: dotted 2px #61a0a5;
+    padding: 2px;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    scrollbar-width: none;
+    float: right;
+}
+
+/* Правая панель */
+#rightsidebar {
+    width: 200px;
+    height: 890px;
+    background-image: url(https://file.garden/Z7lxKNm67A6xLihF/assets/images/digitalraingray.gif);
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 100;
+}
+
+/* iPod player */
+.ipod {
+    --black: #1a1017;
+    --dark: #5b3a53;
+    --med: #61a0a5;
+    --light: #c3e3e6;
+    --white: #ffffff;
+
+    width: 200px;
+    height: 350px;
+    border: 5px var(--med) solid;
+    padding: 20px;
+    position: relative;
+    border-radius: 25px;
+    background: var(--light);
+}
+
+audio {
+    border-radius: 25px;
+    width: 90%;
+    height: 30px;
+    background: var(--med);
+    color: white;
+    mix-blend-mode: hard-light;
+    opacity: 0.4;
+    margin: 10px auto;
+}
+
+.ipod:nth-of-type(even) {
+    background: var(--med);
+    box-shadow: 15px 15px var(--dark);
+    border-color: var(--dark);
+    margin-top: -5px;
+}
+
+.ipod:nth-of-type(even) .button .button {
+    background: var(--med);
+    border: 1px double var(--light);
+}
+
+.screen {
+    height: 55%;
+    background: var(--white);
+    border-radius: 20px;
+    overflow: scroll;
+    outline: 2px var(--white) solid;
+    outline-offset: 3px;
+    font-family: "ChicagoFLF", monospace;
+    font-size: 12px;
+    text-align: center;
+}
+
+.screen b {
+    background: var(--med);
+    color: var(--white);
+    width: 100%;
+    display: block;
+    padding: 3px 5px;
+    font-size: 0.9em;
+    margin-top: 5px;
+    border-top: 15px double var(--white);
+}
+
+.screen .caption {
+    padding: 0px 10px;
+}
+
+.button {
+    border: 1px double var(--med);
+    background: var(--white);
+    height: 40%;
+    aspect-ratio: 1 / 1;
+    margin: 10% auto;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.button .b {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: var(--black) !important;
+}
+
+.b.b-top {
+    top: 5%;
+    font-size: 0.9em;
+}
+
+.b.b-bottom {
+    bottom: 5%;
+    font-size: 0.6em;
+}
+
+.b.b-left {
+    left: 3%;
+    top: 40%;
+    width: 20%;
+}
+
+.b.b-right {
+    right: 3%;
+    top: 40%;
+    width: 20%;
+}
+
+.button .button {
+    height: 50%;
+    aspect-ratio: 1 / 1;
+    margin: 25% auto;
+    background: var(--light);
+}
+
+/* Эффект CRT */
+.crt::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+        linear-gradient(90deg,
+            rgba(255, 0, 0, 0.06),
+            rgba(0, 255, 0, 0.02),
+            rgba(0, 0, 255, 0.06));
+    z-index: 20;
+    background-size: 100% 2px, 3px, 100%;
+    pointer-events: none;
+}
+
+
+#rightboxmiddle {
+    width: 190px;
+    height: 200px;
+    background-color: white;
+    border: dotted #61a0a5 2px;
+    padding: 5px;
+    overflow-y: auto;
+
+    scrollbar-width: none;
+    margin-bottom: 250px;
+}
+
+#rightboxmiddle{
+    font-size: 12px;
+}
+
+p{
+    font-size: 12px;
+}
