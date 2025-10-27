@@ -50,7 +50,7 @@ h3 {
 #leftsidebar {
     width: 200px;
     height: 890px;
-    background-image: url(https://file.garden/Z7lxKNm67A6xLihF/assets/images/digitalraingray.gif);
+    background-image: url(/digitalraingray.gif);
     border: solid 1px black;
     display: flex;
     flex-direction: column;
@@ -113,7 +113,7 @@ h3 {
 #numbers {
     width: 670px;
     height: 495px;
-    background-image: url(https://file.garden/Z7lxKNm67A6xLihF/assets/images/numberspiral.gif);
+    background-image: url(/numberspiral.gif);
     background-size: cover;
     border: solid 1px black;
     padding: 10px;
@@ -175,7 +175,7 @@ h3 {
 #numbers2 {
     width: 650px;
     height: 270px;
-    background-image: url(https://file.garden/Z7lxKNm67A6xLihF/assets/images/numberspiral.gif);
+    background-image: url(/numberspiral.gif);
     background-size: cover;
     background-position: bottom;
     border: solid 1px black;
@@ -203,7 +203,7 @@ h3 {
 #rightsidebar {
     width: 200px;
     height: 890px;
-    background-image: url(https://file.garden/Z7lxKNm67A6xLihF/assets/images/digitalraingray.gif);
+    background-image: url(/digitalraingray.gif);
     border: solid 1px black;
     display: flex;
     flex-direction: column;

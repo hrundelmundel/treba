@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://i.pinimg.com/564x/dd/3e/f6/dd3ef6d2505a68035ad84b5b52b400db.jpg);
+  background-image: url(/естетик-другой.jpg);
   background-size: cover;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-family: fenotype, arial;
+  font-family: 'fenotype', arial;
   color: #FF008B;
   margin-left: 30px;
 }
@@ -54,16 +54,6 @@ a {
   position: absolute;
   top: 3px;
   right: 170px;
-}
-
-.links {
-  position: absolute;
-  left: 0px;
-  top: 200px;
-  width: 190px;
-  height: 390px;
-  background-image: url(https://i.pinimg.com/564x/17/d1/8f/17d18fe4a9518bb822aceec62c37e4a5.jpg);
-  padding: 5px;
 }
 
 .main {
