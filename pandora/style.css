@@ -1,0 +1,70 @@
+
+
+body {
+  background-color: white;
+  background-image: url(https://file.garden/ZpfAD6jufVyGrOht/site/grid-pink.png);
+  color: black;
+  font-family: HelvetiHand;
+  text-align:center;
+}
+
+#content {
+  display:grid;
+  grid-template-columns: 5;
+  grid-template-rows: 5;
+  margin:auto;
+  border: 2px solid #ff73a4;
+  margin-top: 30px;
+  width:fit-content;
+  contain: content;
+}
+
+#content > header {
+  grid-column: span 5;
+  font-size:450%;
+  text-align:right;
+  color:white;
+  padding:20px;
+}
+
+#content > main {
+  grid-row: span 2;
+  grid-column: span 3;
+  text-align:center;
+  font-family: HelvetiHand;
+  background-color: #ffe0eb;
+}
+
+.banner {
+    
+  background: center / cover no-repeat url("/tumblr_b32845e7f5d2ec90c3f182de05886912_5296733a_1280.jpg");
+  background-size:cover;
+  height: 83px;
+}
+
+
+
+.maindiv{
+  border-radius: 49px;
+  border: #ffcee0 solid 2px;
+  background-color: white;
+  margin:1em;
+  padding:1em;
+  float:left;
+  position:relative;
+
+}
+
+.updates{
+  border-radius: 49px;
+  border: #ffcee0 solid 2px;
+  background-color: white;
+  margin:1em;
+  padding:1em;
+  width: 150px;
+  position:relative;
+  float:left;
+}
+
+
+

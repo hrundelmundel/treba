@@ -1,5 +1,4 @@
-
-    * {
+* {
   margin: 0;
   padding: 0;
 }
@@ -17,11 +16,11 @@ body {
   text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
 }
 
-.eva-heading > h1 {
+.eva-heading>h1 {
   font-size: 500%;
 }
 
-.eva-heading > h2 {
+.eva-heading>h2 {
   font-size: 300%;
 }
 
@@ -43,5 +42,31 @@ body {
   transform: scale(1, 1.3);
   font-size: 170%;
   line-height: 1em;
+}
+
+.eva-heading__gif {
+  text-shadow: 0 0 2px #e19a86, 0 0 1.5px #854535, 0 0 1.5px #5c150c;
+  color: white;
+   font-family: sans-serif;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+
+
+.eva-heading__btn:hover{
+  background-color: whitesmoke;
+  width: 200px;
+  height: 150px;
+  background-image: url(/IMG_GHOST_BOOTUP.gif);
+}
+
+.eva-heading__btn {
+  display: block;              
+  width: 200px;                
+  height: 60px;
+  background-color: orangered;   
+  border-radius: 8px;       
+  margin-left: 216px;
 }
 
