@@ -4,7 +4,7 @@ body {
   background-color: white;
   background-image: url(https://file.garden/ZpfAD6jufVyGrOht/site/grid-pink.png);
   color: black;
-  font-family: HelvetiHand;
+  font-family: sans-serif;
   text-align:center;
 }
 
@@ -31,7 +31,7 @@ body {
   grid-row: span 2;
   grid-column: span 3;
   text-align:center;
-  font-family: HelvetiHand;
+  font-family: sans-serif;
   background-color: #ffe0eb;
 }
 
